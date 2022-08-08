@@ -1,2 +1,2 @@
 # Project-aplikasi-website
-Kumpulan project aplikasi berbasis website untuk belajar da portofolio
+Kumpulan project aplikasi berbasis website untuk belajar dan portofolio
