@@ -93,6 +93,7 @@ nav .nav {
 .nav li a:hover {
   color: antiquewhite;
   box-shadow: 1px 1px 3px black;
+  transform: rotate(1deg);
 }
 .nav li a {
   padding: 5px;
@@ -235,6 +236,7 @@ nav .nav {
     color: black;
     background-color: wheat;
     box-shadow: 1px 1px 3px black;
+    transform: rotate(0deg);
   }
   /* Animasi */
   .menu-toggle input:checked ~ span:nth-child(2) {
