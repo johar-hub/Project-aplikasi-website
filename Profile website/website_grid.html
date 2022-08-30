@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website johar grid</title>
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style_sederhana.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="judul">J.S.I</h2>
+          <p class="nama">Johar Saputra Irsandi</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 1500k</h4>
+          <p class="item">Camera</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 2500k</h4>
+          <p class="item">Laptop</p>
+        </div>
+        <nav class="menu"></nav>
+      </header>
+      <nav>
+        <div class="logo">
+          <h3>J.S.I</h3>
+        </div>
+        <ul class="nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <section class="sections">
+        <div class="section">
+          <i id="fa-size" class="fa-solid fa-user"></i>
+          <h3>Profiles</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+            commodi.
+          </p>
+        </div>
+        <div class="section">
+          <i id="fa-size" class="fa-solid fa-graduation-cap"></i>
+          <h3>Educations</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+            commodi.
+          </p>
+        </div>
+        <div class="section">
+          <i id="fa-size" class="fa-solid fa-laptop-code"></i>
+          <h3>Skills</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+            commodi.
+          </p>
+        </div>
+        <div class="section">
+          <i id="fa-size" class="fa-solid fa-address-book"></i>
+          <h3>Contact</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+            commodi.
+          </p>
+        </div>
+      </section>
+      <div class="gallery">
+        <h3>Gallery</h3>
+        <div class="images">
+          <img src="../vendor/img/1.jpg" alt="" /><img
+            src="../vendor/img/2.jpg"
+            alt=""
+          /><img src="../vendor/img/3.jpg" alt="" /><img
+            src="../vendor/img/4.jpg"
+            alt=""
+          /><img src="../vendor/img/5.jpg" alt="" /><img
+            src="../vendor/img/6.jpg"
+            alt=""
+          /><img src="../vendor/img/7.jpg" alt="" /><img
+            src="../vendor/img/8.jpg"
+            alt=""
+          /><img src="../vendor/img/9.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const nav = document.querySelector("nav ul");
+    menuToggle.addEventListener("click", function () {
+      nav.classList.toggle("slide");
+    });
+  </script>
+  <script
+    src="https://kit.fontawesome.com/0947497033.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
